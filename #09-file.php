@@ -27,10 +27,10 @@
     $data_json = json_encode($character);
     file_put_contents("data_json.json", $data_json);
     $content_json = file_get_contents("data_json.json");
-    $output_json = json_decode($content_json);
+    $output_json = json_decode($content_json, true); // true => JSON objects are decoded into associative arrays
 
     foreach ($output_json as $key => $val) {
-        $data = (array)$val;    // convery object to array
+        // $data = (array)$val;    // convert object to array
         print_r($data["Name"]);
         echo "<br>";
     }
