@@ -1,0 +1,1 @@
+a:5:{i:0;a:2:{s:4:"Name";s:4:"Hime";s:4:"Occu";s:8:"Princess";}i:1;a:2:{s:4:"Name";s:8:"Mikazuki";s:4:"Occu";s:7:"Samurai";}i:2;a:2:{s:4:"Name";s:7:"Yindalf";s:4:"Occu";s:10:"MageKnight";}i:3;a:2:{s:4:"Name";s:4:"Cain";s:4:"Occu";s:8:"Paladdin";}i:4;a:2:{s:4:"Name";s:5:"Reika";s:4:"Occu";s:6:"Hunter";}}
