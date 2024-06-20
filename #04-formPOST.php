@@ -6,7 +6,7 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="./%2304-process.php" method="post">
         <label for="name">Name : </label>
         <input type="text" name="name" id="name">
 
@@ -16,7 +16,7 @@
         <input type="submit" value="submit">
     </form>
 
-    <h1>Welcome, <?php echo $_POST['name'] ?></h1>
-    <p>Your occupation is <?php echo $job ?></p>
+    <h1>Welcome, User</h1>
+    <p>Your occupation is Developer</p>
 </body>
 </html>
